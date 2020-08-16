@@ -1,0 +1,24 @@
+
+.left{float:left}
+.rigth{float:right}
+page{
+	background-color: #fafafa;
+	padding:0px 15px;
+}
+/* 推荐 */
+.tj{border-bottom: 3px solid #21d49b;width: 42px;height: 23px;}
+/* mu1 */
+.mv1{margin: 10px 0px 5px 0px;position: relative;}
+.mv1t1{width: 384px;}
+.mv1-1{background: rgba(0,0,0,0.3);color: #fff;font-size: 16px;padding: 9px 18px;width: 169px;position: absolute;top: 201px;}
+.mv1t2{width: 40px;height: 40px;position: absolute;top: 88px;left: 175px;}
+/* mv2 */
+#mv2{height: 789px;}
+.mv2{width: 182px;position: relative;float: left;margin: 2px 4px;}
+.mv2>image{width: 182px;height: 96px;}
+.mv2-1{color: #fff;font-size: 10px;position: absolute;top: 71px;}
+.mv2-1 image{border: 2px solid #fff;border-radius: 5px;padding: 2px;margin: 2px 4px;width: 10px;height: 10px;}
+.mv2-1 text{position: relative;top: -6px;}
+.mv2-2{color: #fff;font-size: 10px;position: absolute;top: 74px;right: 4px;}
+.mv2-3{font-size: 15px;}
+

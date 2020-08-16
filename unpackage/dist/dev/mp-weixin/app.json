@@ -1,0 +1,35 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/video/video"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "QQ音乐",
+    "navigationBarBackgroundColor": "#fff",
+    "backgroundColor": "#FFFFFF",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "color": "#b1b1b1",
+    "selectedColor": "21d49b",
+    "borderStyle": "black",
+    "list": [
+      {
+        "text": "音乐",
+        "pagePath": "pages/index/index",
+        "iconPath": "static/dbtb/音乐.png",
+        "selectedIconPath": "static/dbtb/音乐1.png"
+      },
+      {
+        "text": "视频",
+        "pagePath": "pages/video/video",
+        "iconPath": "static/dbtb/视频.png",
+        "selectedIconPath": "static/dbtb/视频1.png"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap98.json"
+}

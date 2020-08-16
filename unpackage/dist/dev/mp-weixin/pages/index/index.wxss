@@ -1,0 +1,44 @@
+
+.left{float:left}
+.rigth{float:right}
+page{
+	background-color: #fafafa;
+	padding:0px 15px;
+}
+#inp1{
+	text-align: center;
+	border: 1px solid #dcdcdc;
+	border-radius: 25px;
+	margin-top: 20px;
+}
+.gd{padding: 20px 0px;}
+.gd text:nth-last-child(1){color: #6E6E6E;font-size: 16px;margin-top: 5px;}
+/* 歌曲推荐 */
+.gqtj{height: 60px;padding: 15px 0px;}
+.gqtjz{position: relative;width: 297px;}
+.gqtjt image{width: 70px;height: 75px;margin-right: 13px;}
+.te1{display: inline-block;border: 1px solid orange;color: orange;font-size: 10px;padding: 0px 4px;border-radius: 8px;margin: 26px 5px 0px 5px;}
+.te2{display: inline-block;border: 1px solid green;color: green;font-size: 10px;padding: 0px 4px;border-radius: 8px;margin-right: 5px;}
+.te3{color: #6E6E6E;font-size: 10px;}
+.te4{position: absolute;top: 18px;right: 0px;}
+/* 热门歌单 */
+.rmgd{height: 150px;margin-top: 20px;display: -webkit-box;display: -webkit-flex;display: flex;overflow-x: auto}
+.rmgd1{width: 117px;position: relative;margin: 0px 4px;}
+.rmgd2 image{width: 117px;height: 117px;}
+.rmgd3{border-radius: 10px;color: #fff;font-size: 10px;width: 70px;text-align: center;
+	background: rgba(0,0,0,0.3);/*父元素设置背景透明，不影响父类*/
+	position: absolute;top: 99px;right: 2px;}
+.rmgd3 image{width: 10px;height: 10px;}
+.rmgd4{font-size: 14px;}
+/* 推荐小程序 */
+.xcx{margin-top: 17px;margin-bottom: 138px;}
+.xcx view image{width: 80px;height: 80px;}
+.xcx view{width: 126px;text-align: center;font-size: 16px;}
+/* 官方歌单 */
+/* 巅峰榜 */
+.dfb{margin-top: 20px;background: #f2f2f2;border-radius: 6px;padding: 10px 0px 10px 10px;position: relative;}
+.dfb2 image{width: 127px;height: 127px;position: absolute;top: 0px;right: 0px;}
+.dfbt1{font-size: 16px;}
+.dfbt2{font-size: 10px;}
+.dfbt3{font-size: 10px;color: #999999;}
+

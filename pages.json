@@ -1,0 +1,44 @@
+{
+	"pages": [
+		{
+		"path": "pages/index/index"
+	},
+	{
+		"path": "pages/video/video"
+	}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "QQ音乐",
+		"navigationBarBackgroundColor": "#fff",
+		"backgroundColor": "#FFFFFF",
+		"enablePullDownRefresh":true
+	},
+	"tabBar":{
+		/* 未选中文字的颜色 */
+		"color":"#b1b1b1",
+		/* 选中文字的颜色 */
+		"selectedColor":"21d49b",
+		/* 背景颜色 */
+		/* "backgroundColor":"#AAAAAA", */
+		/* 上边框颜色 */
+		"borderStyle":"black",
+		/* 把tabbar置顶，可选值 bottom、top，top仅适配微信小程序，设置后图标自动消失 */
+		/* "position":"top", */
+		/* 每一个list就是一个选项 */
+		"list":[
+			{
+				"text":"音乐",
+				"pagePath":"pages/index/index",
+				"iconPath":"static/dbtb/音乐.png",
+				"selectedIconPath":"static/dbtb/音乐1.png"
+			},
+			{
+				"text":"视频",
+				"pagePath":"pages/video/video",
+				"iconPath":"static/dbtb/视频.png", 
+				"selectedIconPath":"static/dbtb/视频1.png"
+			}
+			]
+			}
+}
